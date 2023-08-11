@@ -54,7 +54,32 @@ function buscar(){
     
     var table = document.createElement('table')
     table.setAttribute("id", "tabla-1")
+
     var row = document.createElement('tr')
+        row.setAttribute("class", "row")
+
+        var column1 = document.createElement('td')
+        var column2 = document.createElement('td')
+        var column3 = document.createElement('td')
+        var column4 = document.createElement('td')
+
+        var text1 = document.createTextNode("Nombre")
+        var text2 = document.createTextNode("Apellido")
+        var text3 = document.createTextNode("Id")
+        var text4 = document.createTextNode("Sexo")
+
+        table.appendChild(row)
+        row.appendChild(column1)
+        column1.appendChild(text1)
+        row.appendChild(column2)
+        column2.appendChild(text2)
+        row.appendChild(column3)
+        column3.appendChild(text3)
+        row.appendChild(column4)
+        column4.appendChild(text4)
+
+    var row = document.createElement('tr')
+    row.setAttribute("class", "row")
     var column1 = document.createElement('td')
     var column2 = document.createElement('td')
     var column3 = document.createElement('td')
@@ -98,6 +123,29 @@ function todos(){
 
         var table = document.createElement('table')
         table.setAttribute("id", "tabla-1")
+
+        var row = document.createElement('tr')
+        row.setAttribute("class", "row")
+
+        var column1 = document.createElement('td')
+        var column2 = document.createElement('td')
+        var column3 = document.createElement('td')
+        var column4 = document.createElement('td')
+
+        var text1 = document.createTextNode("Nombre")
+        var text2 = document.createTextNode("Apellido")
+        var text3 = document.createTextNode("Id")
+        var text4 = document.createTextNode("Sexo")
+
+        table.appendChild(row)
+        row.appendChild(column1)
+        column1.appendChild(text1)
+        row.appendChild(column2)
+        column2.appendChild(text2)
+        row.appendChild(column3)
+        column3.appendChild(text3)
+        row.appendChild(column4)
+        column4.appendChild(text4)
 
         for (let i = 0; i < personas.length; i++) {
         var row = document.createElement('tr')
