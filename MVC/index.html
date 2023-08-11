@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MVC</title>
+</head>
+<body>
+    <form id="formulario">
+        <input type="text" placeholder="N° identificacion" id="busqueda" >
+        <input class="botn" type="button" value="Buscar persona" onclick="buscar()">
+        <input class="botn" type="button" value="Mostrar todos" onclick="todos()">
+        <input class="botn" type="button" id="boton-1" value="añadir persona" onclick="mostrar()">
+        
+        <div id="division">
+            <input type="text" placeholder="Nombre" id="nombre-p" required>
+            <input type="text" placeholder="Apellido" id="apellido-p" required>
+            <input type="number" placeholder="Número de identificación" id="id-p" required>
+            <input type="text" placeholder="Sexo" id="sexo-p" required>
+            <button class="botn" type="button" onclick="generacion()">Generar Persona</button>
+          </div>
+        
+    </form>
+    <div id="Respuestas"></div>
+</body>
+</html>

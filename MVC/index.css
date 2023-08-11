@@ -1,0 +1,85 @@
+*{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+body{
+    background-color: black;
+}
+
+#division{
+    display: none;
+}
+
+td{
+    border-bottom: 1px solid black;
+}
+
+#formulario{
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 27, 44);
+    margin-top: 300px;
+    border-radius: 10px;
+
+}
+
+#division{
+    border-top: 2px solid rgb(0, 106, 255);
+    padding-top: 5px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.botn{
+border: 2px solid rgb(0, 85, 128);
+background-color: cornflowerblue;
+border-radius: 5px;
+    height: 50px;
+    color: white;
+}
+
+.botn:hover{
+    background-color: rgb(131, 168, 238);
+}
+
+#Respuestas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+#tabla-1{
+    background-color: white;
+    width: 500px;
+    border: 2px solid rgb(0, 85, 128);
+}
+
+tr{
+    border: 2px solid black;
+    height: 15px;
+}
+
+.row{
+    background-color: rgb(23, 27, 44);
+    color: white;
+}
